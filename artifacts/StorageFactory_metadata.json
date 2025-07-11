@@ -16,6 +16,43 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
@@ -68,11 +105,11 @@
 			]
 		},
 		".deps/remix-tests/StorageFactory.sol": {
-			"keccak256": "0xc8bd84f5b11b2507aa48ec2c970ed2779e4b0c08368671b80371751353650c06",
+			"keccak256": "0xa82f15ad3e910c58976c8a13c39190c5652b1c74483f826c117e3debb1ca6305",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://42b73ee987cf4add59dcaa7814f9ba33638efe7b88ad52aeaff9c2e10d3c334a",
-				"dweb:/ipfs/QmX2DFkkW71H1PEbccX2EAXDNehLbptLq2vYn2DeDosM88"
+				"bzz-raw://fd3402f447fa488d9ae095bd3c0fb32f31c3dba597d33cc3ec1a65b4f29cd9c9",
+				"dweb:/ipfs/QmTZNLEs6e5g8AFmwnWi8eNUDzTNL1FSwvF2WMk2qSHDAF"
 			]
 		}
 	},
