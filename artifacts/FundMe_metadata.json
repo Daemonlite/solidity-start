@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -75,6 +80,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -105,11 +123,11 @@
 	},
 	"sources": {
 		".deps/remix-tests/FundMe.sol": {
-			"keccak256": "0x553322b3f83ad8fb9b202e106631ed5e3eb7761e13a6e4917a601c02f3c4e46c",
+			"keccak256": "0xc3f30d42aa0632e8963dfa5f3607724d7885d3959b4378e2991b14fcaf18790d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ee80859dde53807d8dde5631202931f25e3246e0b8500ec9974afe5bab7a4b31",
-				"dweb:/ipfs/QmS1ZLjEWz8tZB4AExcjEvEJ3D8VWi2qEEytvdi5MpBy2v"
+				"bzz-raw://7791d4b8059c5c9d1e1377238658e6c870a151384a520f4d6aed00987b40ddd5",
+				"dweb:/ipfs/QmTM9dikvsJQFoMRCRBGVsRUioQkesq2qKzfnA7r4pqeCF"
 			]
 		},
 		"@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol": {
