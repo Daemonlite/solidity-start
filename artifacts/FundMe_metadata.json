@@ -1,0 +1,133 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "addressToAmountFunded",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fund",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "ethAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "getConversionRate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getVersion",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/remix-tests/FundMe.sol": "FundMe"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/remix-tests/FundMe.sol": {
+			"keccak256": "0x553322b3f83ad8fb9b202e106631ed5e3eb7761e13a6e4917a601c02f3c4e46c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ee80859dde53807d8dde5631202931f25e3246e0b8500ec9974afe5bab7a4b31",
+				"dweb:/ipfs/QmS1ZLjEWz8tZB4AExcjEvEJ3D8VWi2qEEytvdi5MpBy2v"
+			]
+		},
+		"@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol": {
+			"keccak256": "0xf510a147120b1ceeec434d1d20235af8fe519b5c40ba2f3ca0546e020fffb3ed",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6518cc341eedeae79ba961b73bfd443918bb40eac3e64d703bc795613693aef7",
+				"dweb:/ipfs/QmdSxasB5bqCUQDaDstEUA7ToHMk4gPWqhL5MXKovSx6M6"
+			]
+		},
+		"@chainlink/contracts/src/v0.6/vendor/SafeMathChainlink.sol": {
+			"keccak256": "0x5e8e765f328182e3d77db4bf19171e65d9fe756f7d4b5a224713b2e4f1c97d50",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://65d095e1a98b90763fd7304dbd75a50f2b3c089486d3e7e1c5c6ba69961a2984",
+				"dweb:/ipfs/QmdiivX6W4WRWU3UxvRWXVtbnujq6h3b7i6RbFCWDT2eh1"
+			]
+		}
+	},
+	"version": 1
+}
