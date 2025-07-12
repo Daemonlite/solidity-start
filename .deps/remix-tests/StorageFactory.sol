@@ -5,8 +5,13 @@ pragma solidity >=0.4.22 <0.9.0;
 
 import "./SimpleStorage.sol";
 
-contract StorageFactory {
+// this storage factory inherits from the simple storage hence havin the
+// access to the all the methods in the simple storage
+contract StorageFactory is SimpleStorage {
 
+
+    // these lines are no longer needed because of the inheritance
+    // im just keeping for reference sake
     SimpleStorage[] public simpleStorageArray;
 
     function createSimpleStorageContract() public {
